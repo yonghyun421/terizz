@@ -2,12 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 import {MEMBER_LIST} from "../constants/memberList";
 import Bg from "../assets/images/logo.PNG";
+import {LIST_0303} from "../constants/participationList";
 // import {ColumnDef, getCoreRowModel, useReactTable, flexRender, Row} from "@tanstack/react-table";
 // import {LIST_0303} from "../constants/participationList";
 // import {COLUMN_DATA} from "../constants/columns";
 // import { Fragment } from 'react';
 
 const Main = props => {
+    const FIRST = LIST_0303
     // const [members, setMembers] = useState(MEMBER_LIST)
     // const table = useReactTable({LIST_0303, COLUMN_DATA, getCoreRowModel: getCoreRowModel()})
     // const { getHeaderGroups, getRowModel } = table;
